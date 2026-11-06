@@ -96,7 +96,12 @@ int mundo :: iniciar (void)
 	// SDL uses UTF-8 
 	// U+00F1 is UTF-8:c3 b1 latin small letter n with tilde
 	// U+0061: latin small letter a
+#ifdef __amigaos__
+	/* the window title goes to Intuition as it is: Latin-1, not UTF-8 */
+	SDL_WM_SetCaption("Don Ceferino Haza\xf1\x61 - ver " VERSION, NULL);
+#else
 	SDL_WM_SetCaption("Don Ceferino Haza\xc3\xb1\x61 - ver " VERSION, NULL);
+#endif
 	
 	if (ico)
 	{

@@ -49,7 +49,7 @@ class audio
 		void descargar_musicas(void);
 		int canal_musica;
 
-		Mix_Chunk *sonidos[11];
+		Mix_Chunk *sonidos[12];	/* 12 are loaded (audio.cc); upstream had 11 */
 		Mix_Music *musicas[2];
 		
 };
