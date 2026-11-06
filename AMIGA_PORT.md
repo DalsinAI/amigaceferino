@@ -37,7 +37,7 @@ How to play
 Open the Ceferino icon, or run Ceferino from a Shell. It opens a 640x480
 window. The cursor keys and Return choose in the menu. In the game the
 cursor keys move Don Ceferino and climb, X fires, Z or C sweeps, F
-switches to the full screen, Escape is the menu and Q quits at once. The
+switches to the full screen and Escape is the menu. The
 game is in English and Spanish as upstream made it (its menus and story
 are pictures). ReadMe-upstream in the drawer is upstream's README. The
 pictures, sounds, music and levels are in the drawer's data/; the scores
