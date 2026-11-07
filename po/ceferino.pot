@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ceferino 0.97.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-22 09:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/audio.cc:62
+#, c-format
+msgid "+ Starting audio system: "
+msgstr ""
+
+#: src/audio.cc:79
+#, c-format
+msgid "- Audio system disabled from options\n"
+msgstr ""
+
+#: src/audio.cc:87
+#, c-format
+msgid "- Sound system disabled from options\n"
+msgstr ""
+
+#: src/audio.cc:96
+#, c-format
+msgid "- Music system disabled from options\n"
+msgstr ""
+
+#: src/audio.cc:142
+#, c-format
+msgid "+ Loading sound files: "
+msgstr ""
+
+#: src/audio.cc:154 src/audio.cc:187
+#, c-format
+msgid "Can't load '%s': %s\n"
+msgstr ""
+
+#: src/audio.cc:156
+#, c-format
+msgid "- Disabled sound system because of errors\n"
+msgstr ""
+
+#: src/audio.cc:175
+#, c-format
+msgid "+ Loading music files: "
+msgstr ""
+
+#: src/audio.cc:190
+#, c-format
+msgid "- Disabled music system because of errors\n"
+msgstr ""
+
+#: src/comojugar.cc:37 src/menu.cc:86
+msgid "how to play"
+msgstr ""
+
+#: src/comojugar.cc:70 src/marcas.cc:124
+msgid "(escape to continue)"
+msgstr ""
+
+#: src/creditos.cc:77 src/marcas.cc:65 src/opciones.cc:64
+#, c-format
+msgid "error: Can't copy screen: '%s'\n"
+msgstr ""
+
+#: src/creditos.cc:168 src/opciones.cc:112
+msgid "(space to continue)"
+msgstr ""
+
+#: src/creditos.cc:182
+msgid ""
+"Developed by:\n"
+"    Hugo Ruscitti\n"
+"\n"
+"Graphics by:\n"
+"    Walter Velazquez\n"
+"\n"
+"Music by:\n"
+"    Javier Da Silva"
+msgstr ""
+
+#: src/creditos.cc:189
+msgid ""
+"You can know more about what we are doing visiting the web site of the "
+"Losers Project:\n"
+"\n"
+"www.losersjuegos.com.ar"
+msgstr ""
+
+#: src/creditos.cc:197
+msgid ""
+"License:\n"
+"\n"
+"This program is free software and is distributed under the terms of the GPL "
+"license. Please read the file COPYING to obtain more information."
+msgstr ""
+
+#: src/final.cc:71
+#, c-format
+msgid "+ Loading finale: "
+msgstr ""
+
+#: src/final.cc:87 src/intro.cc:89
+#, c-format
+msgid "\t Can't load '%s' : '%s'\n"
+msgstr ""
+
+#: src/final.cc:186
+msgid "Good job! Don Ceferino arrives at the spaceship..."
+msgstr ""
+
+#: src/final.cc:190
+msgid "drinks a Mate (a drink) loaded with powder."
+msgstr ""
+
+#: src/final.cc:194
+msgid "He escapes from the spaceship rescuing the cow."
+msgstr ""
+
+#: src/final.cc:198
+msgid "It seems like all is getting back to normal."
+msgstr ""
+
+#: src/final.cc:202
+msgid ""
+"Though it seems like Don Ceferino is very hungry after all this action..."
+msgstr ""
+
+#: src/final.cc:206
+msgid "The end. Thanks for playing this game."
+msgstr ""
+
+#: src/fuente2.cc:38
+#, c-format
+msgid "+ Loading: %s\n"
+msgstr ""
+
+#: src/fuente2.cc:50 src/grafico.cc:74
+#, c-format
+msgid "error : error reshaping the image: '%s' "
+msgstr ""
+
+#: src/fuente2.cc:106
+#, c-format
+msgid "invalid bpp: %d\n"
+msgstr ""
+
+#: src/fuente2.cc:163
+#, c-format
+msgid "Found %d characters in bitmap\n"
+msgstr ""
+
+#: src/fuente2.cc:190
+#, c-format
+msgid "Character %u not found in font tiles\n"
+msgstr ""
+
+#: src/grafico.cc:63
+#, c-format
+msgid "error : can't open: '%s' "
+msgstr ""
+
+#: src/grafico.cc:113 src/grafico.cc:230
+#, c-format
+msgid "Can't show the graphic %d\n"
+msgstr ""
+
+#: src/intro.cc:44
+#, c-format
+msgid "+ Loading presentation: "
+msgstr ""
+
+#: src/intro.cc:73
+#, c-format
+msgid "+ Loading intro: "
+msgstr ""
+
+#: src/intro.cc:204
+msgid "Presents..."
+msgstr ""
+
+#: src/intro.cc:208
+msgid ""
+"The cowboy Don Ceferino lived very happily in his quiet and modest house in "
+"the countryside,"
+msgstr ""
+
+#: src/intro.cc:214
+msgid ""
+"but one day he read in the newspaper that aliens were kidnapping all the "
+"cows around"
+msgstr ""
+
+#: src/intro.cc:220
+msgid "with no exception. The aliens arrived at the farm of Don Ceferino..."
+msgstr ""
+
+#: src/intro.cc:226
+msgid "and kidnapped his only cow."
+msgstr ""
+
+#: src/intro.cc:230
+msgid ""
+"But it doesn't end here. Don Ceferino is determined to recover his precious "
+"cow."
+msgstr ""
+
+#: src/juego.cc:82
+#, c-format
+msgid "error, can't create a copy of the\t\t\t\t\tscreen (juego::inciar)\n"
+msgstr ""
+
+#: src/juego.cc:155 src/juego.cc:518
+#, c-format
+msgid "level %d"
+msgstr ""
+
+#: src/juego.cc:257
+msgid "time out"
+msgstr ""
+
+#: src/juego.cc:610
+msgid "bonus"
+msgstr ""
+
+#: src/juego.cc:646
+msgid "level complete"
+msgstr ""
+
+#: src/juego.cc:890 src/juego.cc:972 src/marcas.cc:149
+#, c-format
+msgid "Can't open the scores file\n"
+msgstr ""
+
+#: src/juego.cc:924
+msgid "you made a new record"
+msgstr ""
+
+#: src/juego.cc:925
+msgid "enter your name"
+msgstr ""
+
+#: src/juego.cc:1022
+msgid "pause"
+msgstr ""
+
+#: src/juego.cc:1048
+msgid "Game Over"
+msgstr ""
+
+#: src/juego.cc:1051
+msgid "If you want to continue push 'space' key"
+msgstr ""
+
+#: src/libgrafico.cc:68
+#, c-format
+msgid "error at creating the object 'grafico'\n"
+msgstr ""
+
+#: src/libgrafico.cc:71
+#, c-format
+msgid "can't continue\n"
+msgstr ""
+
+#: src/libgrafico.cc:116
+#, c-format
+msgid "+ Loading and reshaping images: "
+msgstr ""
+
+#: src/libgrafico.cc:118
+#, c-format
+msgid "+ Loading images: "
+msgstr ""
+
+#: src/main.cc:56
+#, c-format
+msgid ""
+"Remember: run 'ceferinosetup' for more options, and 'ceferinoeditor' to edit "
+"any level.\n"
+msgstr ""
+
+#: src/main.cc:69
+#, c-format
+msgid ""
+"\n"
+"Thanks for playing\n"
+"\n"
+msgstr ""
+
+#: src/marcas.cc:104
+msgid "highest scores"
+msgstr ""
+
+#: src/menu.cc:73
+#, c-format
+msgid "error: can't create a copy of the screen : '%s'\n"
+msgstr ""
+
+#: src/menu.cc:85
+msgid "new game"
+msgstr ""
+
+#: src/menu.cc:87
+msgid "options"
+msgstr ""
+
+#: src/menu.cc:88
+msgid "credits"
+msgstr ""
+
+#: src/menu.cc:89
+msgid "high scores"
+msgstr ""
+
+#: src/menu.cc:90
+msgid "exit"
+msgstr ""
+
+#: src/mundo.cc:58
+#, c-format
+msgid "+ Starting the SDL library:"
+msgstr ""
+
+#: src/mundo.cc:290
+#, c-format
+msgid "The configuration file '%s' does not exist, execute 'ceferinosetup':\n"
+msgstr ""
+
+#: src/mundo.cc:321
+#, c-format
+msgid "Incorrect '%s' parameter\n"
+msgstr ""
+
+#: src/mundo.cc:390
+#, c-format
+msgid "Error while changing scene\n"
+msgstr ""
+
+#: src/mundo.cc:432
+#, c-format
+msgid "Can't find the file '%s'\n"
+msgstr ""
+
+#: src/nivel.cc:70
+#, c-format
+msgid "Can't load the level %d\n"
+msgstr ""
+
+#: src/nivel.cc:182
+#, c-format
+msgid "Can't open the file '%s'"
+msgstr ""
+
+#: src/nivel.cc:360
+#, c-format
+msgid "error: there are 2 cowboys in the same level\n"
+msgstr ""
+
+#: src/nivel.cc:387
+#, c-format
+msgid ""
+"error, the actual level doesn't define the position of the object 'gaucho'\n"
+msgstr ""
+
+#: src/nivel.cc:391
+#, c-format
+msgid "error, no enemy was created in this level, you must have at least one\n"
+msgstr ""
+
+#: src/procesos.cc:70
+#, c-format
+msgid "error, a cowboy already exist in the scene, verify the level created\n"
+msgstr ""
+
+#: src/tiro.cc:142
+#, c-format
+msgid "tiro: error, trying to print with state %d\n"
+msgstr ""
+
+#: src/utils.cc:231
+#, c-format
+msgid "Can't copy the image\n"
+msgstr ""
+
+#: src/utils.cc:327
+#, c-format
+msgid "Creating the scores file '%s'\n"
+msgstr ""
+
+#: src/utils.cc:332
+#, c-format
+msgid "Can't create the scores file '%s'\n"
+msgstr ""
+
+#: src/opciones.cc:74
+msgid ""
+"This feature has been temporarily disabled, please run 'ceferinosetup' "
+"instead."
+msgstr ""

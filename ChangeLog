@@ -1,0 +1,100 @@
+2013-06-22  Roland Clobus <rclobus@rclobus.nl>
+	* src/mundo.cc: Use UTF-8 encoding in the call to set the caption.
+
+2012-01-17  Roland Clobus <rclobus@rclobus.nl>
+	* src/main_op.cc, src/mundo.h, src/actor.h, src/grafico.cc,
+	src/actor.cc, src/grafico.h, src/mundo.cc: Removed compiler warnings.
+	* Makefile.am: Added bootstrap script to released tarball.
+
+2012-01-16  Roland Clobus <rclobus@rclobus.nl>
+	* various: Removed and ignored all generated files by autogen.sh.
+
+2012-01-15  Roland Clobus <rclobus@rclobus.nl>
+	* autogen.sh, macros/gnome-autogen.sh: Added bootstrap script, and an
+	embedded copy from the gnome-common package.
+
+2011-12-17  Roland Clobus <rclobus@rclobus.nl>
+	* configure.ac: Update for the new generated scripts.
+	* mkinstalldirs, m4/ChangeLog, configure, config.rpath, Makefile.in,
+	src/Makefile.in, depcomp, config.guess, config.sub, config.h.in,
+	ABOUT-NLS, data/music/Makefile.in, data/Makefile.in,
+	data/ima/Makefile.in, data/levels/Makefile.in, data/sounds/Makefile.in,
+	missing, Makefile.am, aclocal.m4, po/Rules-quot, po/ChangeLog,
+	po/Makefile.in.in, install-sh: Updated due to 'gnome-autogen.sh',
+	this is needed for the newer version number in 'configure'.
+	Many of these files should be removed from the svn repository, because
+	they can be regenerated.
+	* src/intro.cc, src/creditos.cc, src/final.cc, src/utils.cc,
+	src/audio.cc, src/marcas.cc, src/juego.cc, src/nivel.cc,
+	src/libgrafico.cc, src/procesos.cc, src/fuente2.cc, src/opciones.cc,
+	src/mundo.cc: Fixed spelling errors in the English texts.
+	* src/marcas.cc: Align the scores.
+	* src/main.cc, src/fuente2.cc: Explicitly use latin1 encoded, to enable
+	the correct display of accented letters on utf-8 platforms.
+	* src/fuente2.cc: Show the loading prompt at the right time.
+	* src/fuente2.cc: Use the same right margin as the left margin.
+	* src/final.cc: Fixed preposition in the finale.
+
+2011-12-17  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Remove intl.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add ./config.rpath, m4/ChangeLog.
+
+sáb jul 14 17:39:30 ART 2007
+	- Ahora el protagonista puede ser controlado con las teclas "w,a,s,d"
+	"h,j,k,l" (como en el editor 'vi'), y las teclas "1, 2 y 3".
+	- El menu también puede ser controlado con las mismas teclas que se
+	utilizan para controla al personaje principal.
+	- Se cambia el texto de la parte inferior de la pantalla de las 
+	  escenas 'puntaje' y 'como jugar'.
+	- Ahora solicita el nombre del usuario inmediatamente despues de
+	terminar su sesión de juego.
+
+27-01-2006:
+	- Algunas mejoras a los procesos Item
+	- Mejora en el soporte de texto, ahora conforme a iso_8859_1
+	- Actualización de la internacionalización a Catalán y Español
+	- Otros arreglos menores.
+
+14-01-2006:
+	- Nuevos gráficos para la escena final
+	- Nuevo sistema de fuentes basado en mapas de bits
+	- Se corrigió el problema de ejecución que producía el programa bajo
+	el soporte para 'Francés'
+	- El usuario ahora puede continuar luego de perder todas sus vidas.
+	- Otros arreglos menores.
+	
+
+24-06-2005:
+	- Modificaciones en el último nivel
+	- Mejoras en el editor de niveles, cada usuario puede editar sus
+	niveles.
+	- mejoras en la impresión de pantalla.
+	- trucos añadidos para pasar de nivel, tirar bombas etc (ver
+	README_ES).
+	- los disparos son mas lentos.
+
+05-06-2005:
+	- Arreglos en el idioma Español
+	- Nueva traducción a Catalán
+	- Nueva traducción a Frances
+
+24-05-2005:
+	- Sección como jugar
+	- Arreglos menores
+
+25-03-2005:
+	- Arreglos en las traducciones.
+
+20-03-2005:
+	- Músicas agregadas.
+
+11-03-2005: (DD MM YY)
+	- Retardo en el bucle principal para reducir el uso de CPU.
+	- Mas tiempo para pasar cada nivel.
+	- Automake, autoconf implementados.
+	- Soporte para varios idiomas (gettext).
+	- Mas graficos.
+	- Mejoras en el modo Pausa.
+	- Otros arreglos menores.

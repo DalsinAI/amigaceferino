@@ -1,0 +1,9 @@
+2011-12-17  Roland Clobus <rclobus@rclobus.nl>
+	* ca.po, es.po, fr.po, ceferino.pot: Regenerated after latest round of
+	patches.
+
+2011-12-17  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.18.1.
+	* Rules-quot: Upgrade to gettext-0.18.1.
+
